@@ -63,7 +63,7 @@ public class GPACalc {
 		JComboBox<String> comboClassLevel11 = new JComboBox<>(listOfLevels);
 		
 		
-		String[] listOfDays = {"Select...:", "Full year + 2 day lab", "Full year + 1 day lab","Full year", "Semester", "3 Quarters", "1 Quarter", "4 days", "3 Days", "N/A"}; //string array for combo box of days
+		String[] listOfDays = {"Select...:", "Full year + 2 day lab", "Full year + 1 day lab","Full year", "Semester", "3 Quarters", "1 Quarter", "4 Days", "3 Days", "N/A"}; //string array for combo box of days
 		JComboBox<String> comboDays1 = new JComboBox<>(listOfDays); //ComboBox object for days
 		JComboBox<String> comboDays2 = new JComboBox<>(listOfDays);
 		JComboBox<String> comboDays3 = new JComboBox<>(listOfDays);
@@ -244,9 +244,9 @@ public class GPACalc {
 							creditsAttempted = 3.75;
 						else if (daysArray[i] == "1 Quarter")
 							creditsAttempted = 1.25;
-						else if (daysArray[i] == "4 days")
+						else if (daysArray[i] == "4 Days")
 							creditsAttempted = 4;
-						else if (daysArray[i] == "3 days")
+						else if (daysArray[i] == "3 Days")
 							creditsAttempted = 3;
 						else creditsAttempted = 0;
 						
